@@ -66,7 +66,7 @@ Sumber Data : [dataset](https://github.com/dicodingacademy/dicoding_dataset/blob
 
    6. Evaluasi Model: Setelah menemukan model terbaik menggunakan GridSearchCV, evaluasi akurasi pada data uji seperti yang ditunjukkan pada kode Anda.
 
-**Setup Notebook** : 
+**Setup Aplikasi Streamlit (Local)** : 
    1.  Buka terminal atau command prompt.
    2.  Jalankan perintah berikut untuk membuat virtual environment:
 
@@ -122,6 +122,22 @@ Link : [Dashboard](https://lookerstudio.google.com/reporting/79b5396e-4c16-4726-
 4. **Pekerjaan Orang Tua dan Latar Belakang Ekonomi**
 
     Mahasiswa dengan orang tua yang bekerja sebagai pekerja tidak terampil (ayah: 323, ibu: 490) memiliki tingkat dropout tertinggi
+
+## Menjalankan Sistem Machine Learning
+Link Aplikasi Prototype : [aplikasi-streamlit](https://rsmmenyelesaikanpermasalahaninstitusipendidikan.streamlit.app/)
+
+#### Langkah Menjalankan Prototype
+1. Klik atau salin link aplikasi website ke peramban (browser).
+2. Terdapat tiga expander utama di aplikasi ini:
+ 
+    - `Predict Student Condition (Graduate or Dropout)` : Menu ini menyediakan formulir untuk memprediksi apakah seorang mahasiswa berpotensi untuk lulus (graduate) atau dropout.
+    - `Actual Student Condition` : Menu ini menampilkan 3 tabel yang berisi kondisi mahasiswa sesungguhnya, terbagi menjadi `active`, `Graduate` dan `Dropout`
+    - `Predicted Student Condition` : menampilkan 2 tabel yang berisi hasil prediksi kondisi mahasiswa, terbagi menjadi `Graduate` dan `Dropout`
+
+3. Klik pada Predict Student Condition (Graduate or Dropout) untuk membuka formulir prediksi.
+4. Masukkan semua parameter yang tersedia di formulir sesuai dengan data mahasiswa yang ingin diprediksi. Pastikan setiap kolom diisi dengan benar agar hasil prediksi akurat.
+5. Klik tombol `Submit` setelah semua parameter terisi.
+6. Hasil prediksi akan muncul di bawah tombol Submit. Hasil akan menampilkan apakah mahasiswa tersebut berpotensi untuk `lulus (graduate)` atau `dropout`.
 
 ## Conclusion
   1. Kondisi finansial mahasiswa menunjukkan kurangnya dukungan finansial dapat menjadi hambatan utama. Perluasan program beasiswa dan fleksibilitas pembayaran bisa menjadi solusi efektif.
